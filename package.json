@@ -1,0 +1,41 @@
+{
+  "name": "cursor-built-in-themes",
+  "displayName": "Cursor Built-in Themes",
+  "description": "VS Code theme extension exporting Cursor's built-in default themes from Cursor.app on macOS.",
+  "version": "0.0.1",
+  "publisher": "local-export",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "files": [
+    "package.json",
+    "themes"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cursor Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cursor-dark-color-theme.json"
+      },
+      {
+        "label": "Cursor Dark Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cursor Dark Midnight-color-theme.json"
+      },
+      {
+        "label": "Cursor Dark High Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/Cursor Dark High Contrast-color-theme.json"
+      },
+      {
+        "label": "Cursor Light",
+        "uiTheme": "vs",
+        "path": "./themes/cursor-light-color-theme.json"
+      }
+    ]
+  }
+}
